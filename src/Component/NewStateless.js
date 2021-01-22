@@ -9,7 +9,7 @@ const NewStateless = ({text}) => {
     }
 
     const tambah = function(counter) {
-        return counter + 1
+        return counter + 1;
     }
 
     return <button onClick={handleClick}>
