@@ -9,7 +9,7 @@ const Ulangan2 = (props) => {
         <div>
             <label>1. {rec[0].soal}</label>
             <br/>
-            <input type={rec[0].type} id="radio1" />{rec[0].a}
+            <input type={rec[0].type} id="radio1" checked />{rec[0].a}
             <input type={rec[0].type} id="radio2" />{rec[0].b}
             <br/>
             <input type={rec[0].type} id="radio3" />{rec[0].c}
@@ -18,9 +18,9 @@ const Ulangan2 = (props) => {
         <div>
             <label> 2. {rec[1].soal}</label>
             <br/>
-            <input type={rec[1].type} id="cb1" />
+            <input type={rec[1].type} id="cb1" checked />
             <label>{rec[1].option[0]}</label><br/>
-            <input type={rec[1].type} id="cb2" />
+            <input type={rec[1].type} id="cb2" checked />
             <label>{rec[1].option[1]}</label><br/>
             <input type={rec[1].type} id="cb3" />
             <label>{rec[1].option[2]}</label><br/>
